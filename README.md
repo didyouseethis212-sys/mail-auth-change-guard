@@ -1,6 +1,6 @@
 # Mail Auth Change Guard
 
-**[Try the free browser comparison](https://mail-auth-change-guard.hjbjm.chatgpt.site)** — no signup, mailbox connection or DNS access. Your XML stays on your device.
+**[Try the free browser comparison](https://mail-auth-change-guard-trial.mayasmile.workers.dev)** — no signup, mailbox connection or DNS access. Your XML stays on your device.
 
 Compare consecutive DMARC aggregate report batches for IT agency review. Flag new failing IPs, previously aligned sources now failing, failure-rate increases and changed reported policies. Equivalent parsed repeat reports are counted once within a batch; conflicts and overlapping receiver windows are rejected.
 
@@ -8,9 +8,9 @@ Compare consecutive DMARC aggregate report batches for IT agency review. Flag ne
 
 Load the synthetic example, then compare. Baseline100 receiver observations/0failures; current110/30failures(27.2727%). Expected3findings. These are synthetic reports and documentation IPs, not customers or real mail.
 
-- [Synthetic input and expected output](https://mail-auth-change-guard.hjbjm.chatgpt.site/example.json)
-- [Offline Python package](https://mail-auth-change-guard.hjbjm.chatgpt.site/mail-auth-change-guard.zip)
-- [n8n setup starter](https://mail-auth-change-guard.hjbjm.chatgpt.site/n8n.json) — requires your own API key; API access is available through RapidAPI. This starter is not a published n8n-library template or n8nCloud validation claim.
+- [Synthetic input and expected output](https://mail-auth-change-guard-trial.mayasmile.workers.dev/example.json)
+- [Offline Python package](https://mail-auth-change-guard-trial.mayasmile.workers.dev/mail-auth-change-guard.zip)
+- [n8n setup starter](https://mail-auth-change-guard-trial.mayasmile.workers.dev/n8n.json) — requires your own API key; API access is available through RapidAPI. This starter is not a published n8n-library template or n8nCloud validation claim.
 
 ## Important distinctions
 
