@@ -10,7 +10,7 @@ Load the synthetic example, then compare. Baseline100 receiver observations/0fai
 
 - [Synthetic input and expected output](https://mail-auth-change-guard.hjbjm.chatgpt.site/example.json)
 - [Offline Python package](https://mail-auth-change-guard.hjbjm.chatgpt.site/mail-auth-change-guard.zip)
-- [n8n setup starter](https://mail-auth-change-guard.hjbjm.chatgpt.site/n8n.json) — requires your own API key; API checkout still being configured. This starter is not a published n8n-library template or n8nCloud validation claim.
+- [n8n setup starter](https://mail-auth-change-guard.hjbjm.chatgpt.site/n8n.json) — requires your own API key; API access is available through RapidAPI. This starter is not a published n8n-library template or n8nCloud validation claim.
 
 ## Important distinctions
 
@@ -18,7 +18,7 @@ Uses `policy_evaluated` alignment, not raw authentication results. Either aligne
 
 Supports1–20 uncompressed XML reports per period, each256KiB/5000records. Required-field subset of legacy unnamespaced XML and RFC9990 namespace, not full XSD validation. No gzip/ZIP/forensic reports. Same domain and reporter sets, nonoverlapping baseline/current windows. Deduplication is within supplied batches, not persistent storage.
 
-The browser checker is free. Paid API access is not yet available and will be linked only after authentication and plans are verified. [Free Postmark summaries](https://dmarc.postmarkapp.com/) and self-hosted scripts are alternatives; the purchase hypothesis is repeated batch comparison inside an existing agency workflow, not a generic summary replacement.
+The browser checker is free. [API plans](https://rapidapi.com/didyouseethis212sys/api/mail-auth-change-guard/pricing): BASIC$0/25requests per month; PRO$9/500requests per month. Hard request limits apply; platform bandwidth fees and workflow hosting costs are separate. The synthetic request returned HTTP200 through RapidAPI. [Free Postmark summaries](https://dmarc.postmarkapp.com/) and self-hosted scripts are alternatives; the purchase hypothesis is repeated batch comparison inside an existing agency workflow, not a generic summary replacement.
 
 ## Verification
 
